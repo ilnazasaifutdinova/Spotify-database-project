@@ -2,6 +2,7 @@
 
 ## 📦 Overview
 This group project focuses on designing a **relational database** model for a music streaming platform similar to **Spotify**. The work was completed as part of the *IT Platforms* course and includes schema creation, ERD, normalization, and documentation.
+> 📌 This project focuses on database structure and design. No sample data is included.
 
 ---
 
@@ -38,6 +39,21 @@ This group project focuses on designing a **relational database** model for a mu
 - `README.md` – Project summary and structure
 - `.gitattributes` – GitHub Linguist config to highlight SQL in repo language stats
 
+---
+
+## 🧪 How to Use This Project
+
+1. 💾 **Open the SQL Schema**  
+   - Use any SQL IDE or GUI (e.g., pgAdmin, DBeaver, MySQL Workbench)
+   - Load the file `spotify_database_schema.sql`
+
+2. 🛠️ **Create Tables**  
+   - Run the script to create all necessary tables with relationships
+
+3. 🧠 **Review the Report**  
+   - Open `Spotify_DB_Design_Report.pdf` to explore the ERD, normalization steps, and design decisions
+
+---
 
 ## 🗃️ Database Schema (SQL)
 
