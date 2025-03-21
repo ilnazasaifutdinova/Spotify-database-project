@@ -31,7 +31,9 @@ This group project focuses on designing a **relational database** model for a mu
   - Database model & description  
   - ERD (Entity-Relationship Diagram)
   - Normalization steps (1NF, 2NF, 3NF levels) 
-  - Final SQL schema (with explanation)  
+  - Final SQL schema (with explanation)
+ 
+- `spotify_database_schema.sql` – SQL script with full database schema
 
 - `README.md` – Project summary and structure
 
