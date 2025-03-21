@@ -1,0 +1,5 @@
+# Force GitHub to detect .sql files as source code
+*.sql linguist-detectable=true
+
+# Mark markdown files as documentation only
+*.md linguist-documentation

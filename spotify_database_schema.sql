@@ -1,5 +1,5 @@
 
--- User table
+--User table
 CREATE TABLE User (
   user_id INT PRIMARY KEY,
   username VARCHAR(20) NOT NULL UNIQUE,
@@ -8,14 +8,14 @@ CREATE TABLE User (
   subscription_type ENUM('Free', 'Premium')
 );
 
--- Artist table
+--Artist table
 CREATE TABLE Artist (
   artist_id INT PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
   genre VARCHAR(50) NOT NULL
 );
 
--- Album table
+--Album table
 CREATE TABLE Album (
   album_id INT PRIMARY KEY,
   title VARCHAR(255) NOT NULL,
@@ -24,7 +24,7 @@ CREATE TABLE Album (
   FOREIGN KEY (artist_id) REFERENCES Artist(artist_id)
 );
 
--- Song table
+--Song table
 CREATE TABLE Song (
   song_id INT PRIMARY KEY,
   title VARCHAR(255) NOT NULL,
@@ -35,7 +35,7 @@ CREATE TABLE Song (
   FOREIGN KEY (album_id) REFERENCES Album(album_id)
 );
 
--- Playlist table
+--Playlist table
 CREATE TABLE Playlist (
   playlist_id INT PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
@@ -43,7 +43,7 @@ CREATE TABLE Playlist (
   FOREIGN KEY (user_id) REFERENCES User(user_id)
 );
 
--- Playlist_Song table (many-to-many relationship)
+--Playlist_Song table (many-to-many relationship)
 CREATE TABLE Playlist_Song (
   playlist_id INT,
   song_id INT,
