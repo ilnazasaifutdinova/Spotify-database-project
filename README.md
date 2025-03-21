@@ -36,6 +36,7 @@ This group project focuses on designing a **relational database** model for a mu
 - `spotify_database_schema.sql` – SQL script with full database schema
 
 - `README.md` – Project summary and structure
+- `.gitattributes` – GitHub Linguist config to highlight SQL in repo language stats
 
 
 ## 🗃️ Database Schema (SQL)
